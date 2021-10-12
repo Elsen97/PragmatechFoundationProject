@@ -1,0 +1,231 @@
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+.baza{
+    height: 100vh;
+    width: 100%;
+    background: brown;
+    display: grid;
+    
+}
+.q1{display: grid;
+    height: 5vh;
+    width: 80%;
+    border: 2px solid black;
+margin:0 auto;
+}
+.q2{display: grid;
+    height: 4vh;
+    width: 80%;
+    border: 2px solid black;
+    margin: 1px auto;
+}
+.q3{display:grid;
+    height: 90vh;
+    width: 80%;
+    border: 2px solid black;
+    margin: 1px auto
+}
+.q4{background: white;
+    display: grid;
+    height: 50vh;
+    width: 40%;
+    margin-left:10%;
+    margin-top:-780px;
+    border: 2px solid black;
+}
+.q5{display: grid;
+    border: 2px solid black;
+    width:19%;
+    height: 16vh;
+    margin-left:10%;
+    margin-top:14px;
+    background: white;
+}
+.q6
+{background: white;
+    display: grid;
+    border: 2px solid black;
+    height: 16vh;
+    width: 19%;
+margin-left:590px;
+margin-top:-154px;
+}
+.q7{background: white;
+    display: grid;
+    border:2px solid black;
+    height:16vh;
+    width: 17%;
+    margin-top: -155px;
+    margin-left: 970px;
+    
+}
+.q8
+{background: white;
+    display: grid;
+    border: 2px solid black;
+    height: 16vh;
+    width: 17%;
+    margin-top:-324px;
+    margin-left:970px ;
+    background: white;
+}
+.q9{background: white;
+    display: grid;
+    border: 2px solid black;
+    height: 16vh;
+    width: 17%;
+    margin-top:-319px ;
+    margin-left:970px ;
+}
+.q10{background: white;
+    display: grid;
+    border: 2px solid black;
+    height: 16vh;
+    width: 17%;
+    margin-top: -321px;
+    margin-left: 970px;
+}
+.q11{
+    display: grid;
+    border: 2px solid black;
+    height: 67.5vh;
+    width: 20%;
+    margin-left: 1320px;
+    margin-top: -155px;
+}
+.q12{
+    display: grid;
+    border: 2px solid black;
+    height: 6vh;
+    width: 17%;
+    margin-left: 1350px;
+    margin-top: -630px;
+}
+.q13
+{
+    display: grid;
+    border: 2px solid black;
+    height: 6vh;
+    width: 17%;
+    margin-left: 1350px;
+    margin-top: 10px;
+}
+.q14{
+    display: grid;
+    border: 2px solid black;
+    height: 6vh;
+    width: 17%;
+    margin-left: 1350px;
+    margin-top:10px;
+}
+.q15{
+    display: grid;
+    border: 2px solid black;
+    height: 6vh;
+    width: 17%;
+    margin-left: 1350px;
+    margin-top: 10px;
+}
+.q16{
+    display: grid;
+    border: 2px solid black;
+    height: 6vh;
+    width: 17%;
+    margin-left: 1350px;
+    margin-top: 10px;
+}
+.q17{ display: grid;
+    border: 2px solid black;
+    height: 6vh;
+    width: 17%;
+    margin-left: 1350px;
+    margin-top: 10px;}
+    .q18{
+        display: grid;
+        border: 2px solid black;
+        height: 6vh;
+        width: 17%;
+        margin-left: 1350px;
+        margin-top: 10px;
+    }
+    .q19{
+        display: grid;
+        border: 2px solid black;
+        height: 6vh;
+        width: 17%;
+        margin-left: 1350px;
+        margin-top: 10px;
+    }
+    .q20{
+        display: grid;
+        border: 2px solid black;
+        height: 6vh;
+        width: 17%;
+        margin-left: 1350px;
+        margin-top: 10px;
+    }
+    .q21{
+        display: grid;
+        border: 2px solid black;
+        height: 6vh;
+        width: 17%;
+        margin-left: 1350px;
+        margin-top: 10px;
+    }
+    .q22{
+        display: grid;
+        border: 2px solid black ;
+        height: 3vh;
+        width: 12%;
+        margin-top: -756px;
+        margin-left: 230px;
+    }
+    .q23 {
+        display: grid;
+        border: 2px solid black ;
+        height: 3vh;
+        width: 12%;
+        margin-top: -29px;
+        margin-left: 470px;
+    }
+    .q24
+        {
+            display: grid;
+            border: 2px solid black ;
+            height: 3vh;
+            width: 12%;
+            margin-top: -29px;
+            margin-left: 710px;
+        
+    }
+    .q25{
+        display: grid;
+        border: 2px solid black ;
+        height: 3vh;
+        width: 13%;
+        margin-top: -29px;
+        margin-left: 950px;
+    }
+    .q26{
+        display: grid;
+        border: 2px solid black ;
+        height: 3vh;
+        width: 13%;
+        margin-top: -29px;
+        margin-left: 1210px;
+
+    }
+
+    .q27{
+        display: grid;
+        border: 2px solid black ;
+        height: 3vh;
+        width: 12%;
+        margin-top: -29px;
+        margin-left: 1470px;
+    }
+   
+    

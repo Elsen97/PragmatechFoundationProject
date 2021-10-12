@@ -1,0 +1,652 @@
+       * {
+       padding: 0%;
+       margin: 0%;
+       box-sizing: border-box;
+   }
+   
+   #header {
+       position: relative;
+       width: 100%;
+       height: 100vh;
+       background-color: #32253d;
+       line-height: 1.5;
+       background-size: cover;
+   }
+   
+   .navbar {
+       display: flex;
+       justify-content: space-between;
+       padding: 35px;
+       margin: 0px 50px;
+   }
+   
+   .icon {
+       margin-top: 18px;
+   }
+   
+   .logo {
+       padding: 15px;
+       color: white;
+       font-family: 'Orbitron', sans-serif;
+       font-size: 30px;
+   }
+   
+   .icon {
+       padding: 0px 20px;
+       s margin-left: 20px;
+   }
+   
+   .menu ul {
+       display: flex;
+   }
+   
+   .menu ul li {
+       padding: 20px;
+       margin-left: 30px;
+   }
+   
+   .menu ul li a {
+       text-decoration: none;
+       font-family: 'Josefin Sans', sans-serif;
+       font-size: 20px;
+       color: white;
+   }
+   
+   .headbody {
+       position: absolute;
+       top: 34vh;
+       right: 15vw;
+   }
+   
+   .headbody1 {
+       position: absolute;
+       bottom: 0vh;
+       right: 20vw;
+   }
+   
+   .menu ul li:hover {
+       background: rgb(107, 107, 173);
+       color: white;
+       transition: 1.5s;
+   }
+   
+   .text {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       position: relative;
+       top: 20vh;
+       height: 80vh;
+       width: 60%;
+       font-size: 90px;
+       font-family: 'Paytone One', sans-serif;
+       font-weight: bold;
+       margin-top: -99px;
+       color: white;
+   }
+   
+   .cirycle {
+       margin-top: 0px;
+       background-color: rgb(139, 139, 180);
+       height: 100px;
+       width: 100px;
+       font-size: 28px;
+       border-radius: 50px;
+   }
+   
+   .cirycle h1 {
+       font-family: sans-serif;
+       margin-left: 13px;
+       padding: 9px;
+   }
+   
+   .shop {
+       padding: 30px 40px 30px 30px;
+       position: relative;
+       left: 7vw;
+       bottom: 15vh;
+       width: 300px
+   }
+   
+   .cart {
+       color: white;
+       padding: 20px;
+   }
+   
+   .fcircle {
+       color: white;
+       padding: 20px;
+   }
+   
+   .search {
+       color: white;
+       padding: 20px;
+   }
+   
+   .shop a {
+       color: black;
+       text-decoration: none;
+       font-family: 'Spartan', sans-serif;
+       font-size: 16px;
+   }
+   /* end */
+   /* start */
+   
+   #popular {
+       position: relative;
+       width: 100%;
+       height: 180vh;
+   }
+   
+   .phead { 
+    
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+   }
+   
+   .phead h1 {
+   
+       color: #1d2b36;
+       font-size: 52px;
+       line-height: 1.15;
+       font-weight: 500;
+       padding: 30px 30px 20px 30px;
+   }
+   
+   .phead p {
+       color: #afafaf;
+       font-size: 20px;
+       text-align: center;
+   }
+   
+   .main {
+       width: 100%;
+       height: 100vh;
+   }
+   
+   .box {
+       position: absolute;
+       left: 15%;
+       height: 1300px;
+       width: 1300px;
+       margin-top: 50px;
+   }
+   
+   .winter {
+       position: relative;
+       width: 650px;
+       height: 786px;
+   }
+   
+   .winter img {
+       max-height: 786px;
+       width: 650px;
+       object-fit: cover;
+   }
+   
+   .festive {
+       position: absolute;
+       right: 0%;
+       top: 0%;
+       height: 572px;
+       width: 597px;
+   }
+   
+   .festive img {
+       max-height: 570px;
+       width: 597px;
+       object-fit: cover;
+   }
+   
+   .sweatshirt {
+       position: absolute;
+       right: 0%;
+       bottom: 0%;
+       height: 692px;
+       width: 600px;
+   }
+   
+   .sweatshirt img {
+       max-height: 692px;
+       width: 598px;
+       object-fit: cover;
+   }
+   
+   .accelete {
+       position: absolute;
+       left: 0%;
+       bottom: 0%;
+       height: 459px;
+       width: 650px;
+   }
+   
+   .accelete img {
+       max-height: 517px;
+       width: 648px;
+       object-fit: cover;
+   }
+   
+   .winter h1 {
+       color: white;
+       position: absolute;
+       bottom: 12%;
+       left: 2%;
+       font-size: 40px;
+   }
+   
+   .winter p {
+       position: absolute;
+       bottom: 9%;
+       left: 2%;
+       color: white;
+       font-size: 15px;
+   }
+   
+   .festive h1 {
+       position: absolute;
+       color: white;
+       left: 2%;
+       bottom: 15%;
+       font-size: 40px;
+   }
+   
+   .festive p {
+       position: absolute;
+       color: white;
+       left: 3%;
+       bottom: 11%;
+       font-size: 15px;
+   }
+   
+   .sweatshirt h1 {
+       position: absolute;
+       color: white;
+       left: 2%;
+       bottom: 15%;
+       font-size: 36px;
+   }
+   
+   .sweatshirt p {
+       position: absolute;
+       color: white;
+       left: 3%;
+       bottom: 11%;
+       font-size: 17px;
+   }
+   
+   .accelete h1 {
+       position: absolute;
+       color: white;
+       left: 2%;
+       bottom: 13%;
+       font-size: 40px;
+   }
+   
+   .accelete p {
+       position: absolute;
+       color: white;
+       left: 3%;
+       bottom: 9%;
+       font-size: 15px;
+   }
+   /* end */
+   /* start */
+   
+   #category {
+       width: 100%;
+       height: 615px;
+       background: #f7f7f7;
+       position: relative;
+   }
+   
+   .chead {
+       padding-top: 40px;
+       width: 100%;
+       height: 215px;
+       display: grid;
+       grid-template-rows: 1fr 1fr
+   }
+   
+   .chead h1 { 
+    
+       text-align: center;
+       color: #1d2b36;
+       font-size: 52px;
+       line-height: 1.15;
+       font-weight: 500;
+   }
+   
+   .chead p {  
+    
+       text-align: center;
+       color: #afafaf;
+   }
+   
+   .galery {
+       position: relative;
+       left: 15%;
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+       grid-template-rows: 1fr;
+       justify-content: space-between;
+       width: 70%;
+       height: 230px;
+   }
+   
+   .allmen img {
+       border-radius: 153px;
+       width: 190px;
+       height: 192px;
+   }
+   
+   .clothing img {
+       border-radius: 153px;
+       width: 190px;
+       height: 192px;
+   }
+   
+   .shoes img {
+       border-radius: 153px;
+       width: 190px;
+       height: 192px;
+   }
+   
+   .cologne img {
+       border-radius: 153px;
+       width: 190px;
+       height: 192px;
+   }
+   
+   .watch img {
+       border-radius: 153px;
+       width: 190px;
+       height: 192px;
+   }
+   
+   .accessories img {
+       border-radius: 153px;
+       width: 190px;
+       height: 192px;
+   }
+   
+   .allmen h1 {
+       left: 7%;
+       position: absolute;
+       bottom: 2%;
+       font-family: 'Josefin Sans', sans-serif;
+   }
+   
+   .clothing h1 {
+       left: 22%;
+       position: absolute;
+       bottom: 2%;
+       font-family: 'Josefin Sans', sans-serif;
+   }
+   
+   .shoes h1 {
+       left: 39%;
+       position: absolute;
+       bottom: 2%;
+       font-family: 'Josefin Sans', sans-serif;
+   }
+   
+   .cologne h1 {
+       right: 41%;
+       position: absolute;
+       bottom: 2%;
+       font-family: 'Josefin Sans', sans-serif;
+   }
+   
+   .watch h1 {
+       right: 25%;
+       position: absolute;
+       bottom: 2%;
+       font-family: 'Josefin Sans', sans-serif;
+   }
+   
+   .accessories h1 {
+       right: 6%;
+       position: absolute;
+       bottom: 2%;
+       font-family: 'Josefin Sans', sans-serif;
+   }
+   /* end */
+   /* start */
+   
+   #arrivals {
+        padding-top:104px;
+padding-bottom: 48px;
+       width: 100%;
+       height: 870px;
+   }
+   
+   .nhead {
+       width: 100%;
+       height: 270px;
+       flex-direction: column;
+       display: flex;
+       align-items: center;
+    text-align: center;}
+
+       .nhead h1{
+        color: #1d2b36;
+        font-size: 52px;
+        line-height: 1.15;
+        font-weight: 500;    
+     }
+
+        .nhead p { padding-top: 15px;
+            color: #afafaf;
+
+        }
+        .ngalery{ 
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            height: 600px;
+            width: 70%;
+            position: relative;
+            left: 15%;
+             gap: 33px;
+            bottom:14%;
+        }
+        .superdry img {
+            height: 290px;
+            width: 240px;
+        }
+        .boohoo img{
+            height: 290px;
+            width: 240px;
+        }
+        .zdesign  img{
+            height: 290px;
+            width: 240px;
+        }
+        .reclaimed img{
+            height: 290px;
+            width: 240px;
+        }
+        .newlook img{
+            height: 290px;
+            width: 240px;
+        }
+        .superdry a{
+            color: #7296a1;
+    text-decoration: none;
+        }
+        .star i{
+            color: #f6b100;
+    font-size: 13px;
+        }
+        .reclaimed a {
+            color: #7296a1;
+            text-decoration: none;
+
+        }
+        .zdesign a{
+            color: #7296a1;
+            text-decoration: none;
+        } 
+        .boohoo a {
+            color: #7296a1;
+            text-decoration: none;
+
+        }
+        .newlook a{
+            color: #7296a1;
+            text-decoration: none;
+            font-size: ;
+        }
+        .star {
+            position: relative;
+            top:2%;
+        } 
+        .ntext {
+            position:relative;
+            top: 5%; 
+            color: #1d2b36;
+            font-weight: 500;
+             font-size: 20px;
+             
+        }
+        .hr {
+
+            margin-top: 82px;
+        }
+
+        .bhr{
+            margin-top: 61px;
+        }
+        .rhr {
+            margin-top: 81px;
+        }
+        .cost{ display: flex;
+            padding: 15px;
+        } 
+        .numeral {
+            margin-right: 9px;
+        }
+        .cost del{
+            color: #afafaf;;
+        }
+        .cost h1{
+            color: #1d2b36;
+        }
+       /* stop */
+
+       /* start */
+
+#flagship{position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.flagship{
+    
+    display: flex;
+    justify-content: center;
+    height:100vh;
+   width: 100%;
+}
+.flagship img{ 
+    object-fit: cover;
+    max-height: 400px;
+   min-width: 1400px;
+}
+.fcenter{ 
+    color: #fff;
+    font-size: 35px;
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    font-family:'Spartan';
+}
+.fcenter button{
+    text-align: center;
+ font-family: 'Orbitron', sans-serif;
+ margin-top: 10px;
+padding: 15px;
+padding-right: 60px;}
+
+.flogo {
+    position: relative;
+    width: 1050px;
+    height: 340px;
+    left: 22%;
+    bottom: 45%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.flogo i{
+     padding:45px;
+    padding-left: 75px;
+    font-size: 80px;
+    color: #afafaf;;
+  
+}
+#occasion{
+    width: 100%;
+    height: 10vh;
+}
+.oc-container{
+    width: 100%;
+    height: 100vh;
+}
+.oc-head {
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.oc-head h1{
+    color: #1d2b36;
+    font-size: 52px;
+    line-height: 1.15;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.oc-head p{
+    color: #afafaf;
+    font-size: 17px;
+}
+.oc-main{
+    display: flex;
+    justify-content: center; 
+    padding-top: 80px;
+}
+.business h1{ position: relative;
+    left: 41%;
+    top: 5%;
+    color: #1d2b36;
+    font-size: 23px;
+    line-height: 1.3;
+    font-weight: 500;
+    font-family: 'Josefin Sans';
+}
+.business p{ 
+    color: #afafaf;
+    position: relative;
+    left: 20%;
+    top: 7%;
+    margin-bottom: 24px;
+
+}
+.weekend{
+    position: relative;
+    bottom: 5%;
+}
+.business button {
+    padding:20px 60px;
+    position: relative;
+    left: 20%;
+    top: 8%;
+    border: 2px solid #7296a1;
+    background-color: white ;
+    color: #7296a1;;
+}
+       /* end */
+
+       /* start */
+
